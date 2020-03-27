@@ -2,4 +2,7 @@
 
     <string name="app_name">The Movie DB</string>
 
+    <string name="main_bottom_nav_item_popular_movies">Populaires</string>
+    <string name="main_bottom_nav_item_best_movie">Best</string>
+
 </resources>

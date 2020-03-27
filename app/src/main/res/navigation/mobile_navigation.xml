@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/main_bottom_nav_popular_movies">
+
+    <fragment
+        android:id="@+id/main_bottom_nav_popular_movies"
+        android:name="com.mfekim.themoviedb.ui.popular.PopularMoviesFragment"
+        android:label="@string/main_bottom_nav_item_popular_movies"
+        tools:layout="@layout/fragment_popular_movies" />
+
+    <fragment
+        android:id="@+id/main_bottom_nav_best_movie"
+        android:name="com.mfekim.themoviedb.ui.best.BestFragment"
+        android:label="@string/main_bottom_nav_item_best_movie"
+        tools:layout="@layout/fragment_best_movie" />
+
+</navigation>
